@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637996526998988093
-    m_Hash: 1354936610
+      ticks: 637996556927322125
+    m_Hash: 1077310685
   m_LockFileStatus:
     m_FilePath: C:/Users/cruz2/Documents/our-3D-game/MY3DGAME/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637996527012132199
-    m_Hash: 1233034599
+      ticks: 637996556927331749
+    m_Hash: 3335750750
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

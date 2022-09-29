@@ -9,10 +9,15 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 moveDirection;
     private Vector3 velocity;
     
+    [SerializeField]private Transform cameraTransform;
+    [SerializeField] private float turnSmoothTime = 0.1f;
+    [SerializeField] private float turnSmoothVelocity;
+    
     [SerializeField] private float movementSpeed;
     [SerializeField] private float walkSpeed;
     [SerializeField] private float runSpeed;
     [SerializeField] private float jumpHeight;
+   
 
     [SerializeField] private bool isGrounded;
     [SerializeField] private float groundCheckDistance;
@@ -37,27 +42,33 @@ public class PlayerMovement : MonoBehaviour {
             velocity.y = -2f;
         }
 
-        float moveZ = Input.GetAxisRaw("Vertical");
         float moveX = Input.GetAxisRaw("Horizontal");
-        moveDirection = new Vector3(moveX, 0, moveZ);
-        moveDirection = transform.TransformDirection(moveDirection);
+        float moveZ = Input.GetAxisRaw("Vertical");
+        
+        moveDirection = new Vector3(moveX, 0, moveZ).normalized;
+        //moveDirection = transform.TransformDirection(moveDirection);
+
+        moveDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * moveDirection;
+        //moveDirection.Normalize();
 
         if(isGrounded) {
-            if(moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift)) {
-                // Walking with animation
-                if(Input.GetKey(KeyCode.S)) {
-                    WalkBackwards();
-                }
-                else {
-                    Walk();
-                }
-            }
-            else if(moveDirection != Vector3.zero && Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.LeftShift)) {
-                // Running with animation
+            if(moveDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift)) {
+                // Play running animation and call Run() function
+                float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+                transform.rotation = Quaternion.Euler(0, angle, 0);
+                // Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
                 Run();
             }
+            else if(moveDirection != Vector3.zero) {
+                // Play walking animation and call Walk() function
+                float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+                transform.rotation = Quaternion.Euler(0, angle, 0);
+                Walk();
+            }
             else if(moveDirection == Vector3.zero) {
-                // Stand in place with idle animation
+                // Play idle animation and call Idle() function
                 Idle();
             }
 
@@ -71,11 +82,6 @@ public class PlayerMovement : MonoBehaviour {
         controller.Move(moveDirection * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-    }
-
-    private void WalkBackwards() {
-        movementSpeed = walkSpeed;
-        anim.SetFloat("Speed", -1, 0.1f, Time.deltaTime);
     }
 
     private void Idle() {
@@ -95,5 +101,14 @@ public class PlayerMovement : MonoBehaviour {
     private void Jump() {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         anim.SetTrigger("Jump");
+    }
+
+    private void OnApplicationFocus(bool focus) {
+        if(focus) {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else {
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
 }

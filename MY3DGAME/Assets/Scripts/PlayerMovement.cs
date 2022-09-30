@@ -77,6 +77,11 @@ public class PlayerMovement : MonoBehaviour {
             if(Input.GetKeyDown(KeyCode.Space)) {
                 Jump();
             }
+
+            
+            if(Input.GetKeyDown(KeyCode.G)) {
+                Dodge();
+            }
         }
 
         controller.Move(moveDirection * Time.deltaTime);
@@ -101,6 +106,10 @@ public class PlayerMovement : MonoBehaviour {
     private void Jump() {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         anim.SetTrigger("Jump");
+    }
+
+    private void Dodge() {
+        anim.SetTrigger("Dodge");
     }
 
     private void OnApplicationFocus(bool focus) {

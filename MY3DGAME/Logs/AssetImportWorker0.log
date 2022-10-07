@@ -1,0 +1,1046 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 15591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/john17/Documents/school/NEW3DGAME/our-3D-game/MY3DGAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49565
+Successfully changed project path to: C:/Users/john17/Documents/school/NEW3DGAME/our-3D-game/MY3DGAME
+C:/Users/john17/Documents/school/NEW3DGAME/our-3D-game/MY3DGAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 82.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/john17/Documents/school/NEW3DGAME/our-3D-game/MY3DGAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7795 MB
+    Driver:   30.0.13040.4003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007713 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003056 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (182.4 KB). Loaded Objects now: 3380.
+Memory consumption went from 190.8 MB to 190.6 MB.
+Total: 3.280900 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.752500 ms  DeleteObjects: 0.143500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8791.660797 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs
+  artifactKey: Guid(9ab0fc542e6aa6e48bf61987d199042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs using Guid(9ab0fc542e6aa6e48bf61987d199042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dbb09ec028f268bdcf57d202459311') in 0.023853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.358424 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement1.cs
+  artifactKey: Guid(9ab0fc542e6aa6e48bf61987d199042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement1.cs using Guid(9ab0fc542e6aa6e48bf61987d199042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bad2b28d0a11c13a50ef7f5ac188ab4') in 0.003986 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (150.6 KB). Loaded Objects now: 3394.
+Memory consumption went from 190.6 MB to 190.5 MB.
+Total: 2.922200 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.293800 ms  DeleteObjects: 0.125100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.289769 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(eed0db18bae7bb645ba85a2c7297db30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(eed0db18bae7bb645ba85a2c7297db30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f144e8e3de41aacb21bc79f12e0c7cfb') in 0.013784 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (149.6 KB). Loaded Objects now: 3409.
+Memory consumption went from 190.6 MB to 190.5 MB.
+Total: 3.329100 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.166300 ms MarkObjects: 2.681700 ms  DeleteObjects: 0.119000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1068ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.8 KB). Loaded Objects now: 3424.
+Memory consumption went from 190.7 MB to 190.5 MB.
+Total: 3.503000 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.890500 ms  DeleteObjects: 0.145100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1107ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.6 KB). Loaded Objects now: 3439.
+Memory consumption went from 190.7 MB to 190.6 MB.
+Total: 3.983600 ms (FindLiveObjects: 0.567100 ms CreateObjectMapping: 0.129500 ms MarkObjects: 3.106000 ms  DeleteObjects: 0.177500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7717.622212 seconds.
+  path: Assets/Scenes/Level.unity
+  artifactKey: Guid(497db26a05b51d9429bbcdbbef80f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level.unity using Guid(497db26a05b51d9429bbcdbbef80f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71295de255dcda65bac5b32ffe2a034') in 0.020742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.174812 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/SciFi_Warehouse.unity
+  artifactKey: Guid(04ba57353b4f0284686265d3d150c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/SciFi_Warehouse.unity using Guid(04ba57353b4f0284686265d3d150c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9ec67796139e275940133610636ac5') in 0.003551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.473257 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data
+  artifactKey: Guid(cd66ea861ab218e418eba62af64e64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data using Guid(cd66ea861ab218e418eba62af64e64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d16e49f2b3bec5572bb62210270588') in 0.003827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.737143 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data/LightingData.asset
+  artifactKey: Guid(d0be4b2b0e43ef14fa086ef8d382537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data/LightingData.asset using Guid(d0be4b2b0e43ef14fa086ef8d382537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: 'f1b85c207c31d8bca04949291f684015') in 0.030345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data/ReflectionProbe-0.exr
+  artifactKey: Guid(b9327fe293c1f824d945fde7b14c2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data/ReflectionProbe-0.exr using Guid(b9327fe293c1f824d945fde7b14c2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1686128108d7f0f63cb8239ad9d5269') in 0.092707 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.7 KB). Loaded Objects now: 3486.
+Memory consumption went from 194.9 MB to 194.8 MB.
+Total: 4.139400 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.097100 ms MarkObjects: 3.345700 ms  DeleteObjects: 0.282600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1021ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.7 KB). Loaded Objects now: 3501.
+Memory consumption went from 194.9 MB to 194.8 MB.
+Total: 3.914700 ms (FindLiveObjects: 0.681600 ms CreateObjectMapping: 0.366300 ms MarkObjects: 2.724700 ms  DeleteObjects: 0.140300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.6 KB). Loaded Objects now: 3516.
+Memory consumption went from 195.0 MB to 194.8 MB.
+Total: 4.332500 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.143700 ms MarkObjects: 3.511100 ms  DeleteObjects: 0.238200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.8 KB). Loaded Objects now: 3531.
+Memory consumption went from 195.0 MB to 194.8 MB.
+Total: 4.269200 ms (FindLiveObjects: 0.587900 ms CreateObjectMapping: 0.141200 ms MarkObjects: 3.270500 ms  DeleteObjects: 0.267400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2396.689424 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Elbow 02.fbx
+  artifactKey: Guid(8e46cfab629ec8249b48a57b735235dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Elbow 02.fbx using Guid(8e46cfab629ec8249b48a57b735235dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bda10e7d0c95f723196adf304b1193d') in 0.182707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall DoorClosed.fbx
+  artifactKey: Guid(b47e3bba032b35441a80e6b384d61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall DoorClosed.fbx using Guid(b47e3bba032b35441a80e6b384d61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4791b8e814cabb2ca586d0cfedd2963d') in 0.087845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Door Raised.fbx
+  artifactKey: Guid(498a831095708df4bbdb548211124aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Door Raised.fbx using Guid(498a831095708df4bbdb548211124aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9c93a80f958ba5cf7059f2165158a0') in 0.072506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Barrel.fbx
+  artifactKey: Guid(7b44d744f6c37d441952d043e70b584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Barrel.fbx using Guid(7b44d744f6c37d441952d043e70b584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678461fd1db5272f0167f0f6a194d311') in 0.026401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee Lights.fbx
+  artifactKey: Guid(f31206e3aa5c5ba4ca098413529f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee Lights.fbx using Guid(f31206e3aa5c5ba4ca098413529f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ed9167f483fe305f8abd0d880982b1') in 0.301496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide.fbx
+  artifactKey: Guid(0c7a4f4b9bbf44841812ab47fae3b382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide.fbx using Guid(0c7a4f4b9bbf44841812ab47fae3b382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e99f32d760290207980cfef1afa1fc') in 0.140076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Cart.fbx
+  artifactKey: Guid(3200b0bd31ff3634b9425e04a691be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Cart.fbx using Guid(3200b0bd31ff3634b9425e04a691be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f263fa0be314782c550f0316ff586c4') in 0.023190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Closed.fbx
+  artifactKey: Guid(b28dd70a689b2b649832f43119d5b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Closed.fbx using Guid(b28dd70a689b2b649832f43119d5b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb4c226cfe7f2642c3f9f1b9ea50a11') in 0.032950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Plain.fbx
+  artifactKey: Guid(c0b2264371dda4d46b1b0a11ea4d5f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Plain.fbx using Guid(c0b2264371dda4d46b1b0a11ea4d5f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93025d00516d50e9f1a563013394801c') in 0.037561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Tee.fbx
+  artifactKey: Guid(b63bec55b1a6dfc4596b6da70ef02d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Tee.fbx using Guid(b63bec55b1a6dfc4596b6da70ef02d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110ce15c00e60056399902f30fbd5f76') in 0.037987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Fire Extinguisher.fbx
+  artifactKey: Guid(9c785a87f662c974db9241207a156048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Fire Extinguisher.fbx using Guid(9c785a87f662c974db9241207a156048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da82c7a90328b00dbc6ac6d062593e4') in 0.038709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Exit Sign.fbx
+  artifactKey: Guid(3fa91f9597108b24f81cd403a9b8070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Exit Sign.fbx using Guid(3fa91f9597108b24f81cd403a9b8070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21898b59c5ad436c39e1f88f6b3f58a0') in 0.075754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 02.fbx
+  artifactKey: Guid(150f1d6c324cb0741ab28ddb5fe215de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 02.fbx using Guid(150f1d6c324cb0741ab28ddb5fe215de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3580aad5d11684ca21b565ebf6bad7') in 0.024337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 03.fbx
+  artifactKey: Guid(5cbddee6fa556ed4dbf67a4f02f826fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 03.fbx using Guid(5cbddee6fa556ed4dbf67a4f02f826fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f4aa609c3a642e8412db3a599f4cd') in 0.023439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx
+  artifactKey: Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx using Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7dbd6a812a952d52d6a2a0f11d6028') in 0.135386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Passthrough Lights.fbx
+  artifactKey: Guid(a595069cbc2793340bd5a19a73b90c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Passthrough Lights.fbx using Guid(a595069cbc2793340bd5a19a73b90c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e17fdde1bec2ab8eb3722092be59333') in 0.118555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor 4-Way Lights.fbx
+  artifactKey: Guid(2efb7a29ab58a38448bcedb48030cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor 4-Way Lights.fbx using Guid(2efb7a29ab58a38448bcedb48030cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a168236e9c19cdc5a1fcfab51a3f2a7c') in 0.121405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Pallet.fbx
+  artifactKey: Guid(6d51a84963428cf4b9aaabea531eb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Pallet.fbx using Guid(6d51a84963428cf4b9aaabea531eb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae054f36fb3347109ba18eeea5f34c11') in 0.028847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Short.fbx
+  artifactKey: Guid(ce65141939545d440ac8591812208a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Short.fbx using Guid(ce65141939545d440ac8591812208a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e153c555d4bf5fb08b82baf87aaed18') in 0.028323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Shelves/Shelves.fbx
+  artifactKey: Guid(5d640b36265eadc4a87d38682a77f08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Shelves/Shelves.fbx using Guid(5d640b36265eadc4a87d38682a77f08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ac22239b8eaade75a52e09187c5d1a') in 0.056581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corner.fbx
+  artifactKey: Guid(13d9c5811fd0fcf4986655f5dcf8d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corner.fbx using Guid(13d9c5811fd0fcf4986655f5dcf8d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca72989824f257b910a20d45854bdbe') in 0.024380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Pillars and Beams/Wall Support.fbx
+  artifactKey: Guid(2e3c4654a7de08a478c4d20a7723146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Pillars and Beams/Wall Support.fbx using Guid(2e3c4654a7de08a478c4d20a7723146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ee7d8fd68aa1af6e15c8f65860646') in 0.028512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall BayDoor.fbx
+  artifactKey: Guid(1b74ff2139ba6ea47803d0c80ee0702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall BayDoor.fbx using Guid(1b74ff2139ba6ea47803d0c80ee0702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2ff32c41ba3b054b1bd51047a0cacf') in 0.097295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Elbow 01.fbx
+  artifactKey: Guid(7d8f2af59bc0a8b44846abf7025a3645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Elbow 01.fbx using Guid(7d8f2af59bc0a8b44846abf7025a3645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f9608edb4d3b1a52f74b36b0e48c88') in 0.028369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Garbage Bin.fbx
+  artifactKey: Guid(86f94647b91659e4d941245a0d85ba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Garbage Bin.fbx using Guid(86f94647b91659e4d941245a0d85ba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fefa06125e1e8b3017d05e9c9d1307') in 0.025787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Fan.fbx
+  artifactKey: Guid(3a8384e20c816134c8d4a4d359d33c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Fan.fbx using Guid(3a8384e20c816134c8d4a4d359d33c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e50543eda2527a56ea883cbc4bfc14f') in 0.126614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 01.fbx
+  artifactKey: Guid(ce1e1c6afeb8a4c4da4ab18e701d36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 01.fbx using Guid(ce1e1c6afeb8a4c4da4ab18e701d36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cedd712fe9569c1a29823e4ae3ae1ad') in 0.025241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Windows.fbx
+  artifactKey: Guid(13921b5f98eda9c47b248ee239841bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Windows.fbx using Guid(13921b5f98eda9c47b248ee239841bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6712472c172c97748164f964a1ea11c6') in 0.346749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Funnel.fbx
+  artifactKey: Guid(d01bf6e4f57c13044a7cd90f9da83dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Funnel.fbx using Guid(d01bf6e4f57c13044a7cd90f9da83dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac90fd0d2a5ba4e3cab74f402b0c7ce') in 0.139828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Long.fbx
+  artifactKey: Guid(e53378bffa67fba40888797a9016d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Long.fbx using Guid(e53378bffa67fba40888797a9016d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ca8878d77edfaa151eee49c649086b') in 0.029306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Skylight.fbx
+  artifactKey: Guid(401656ee5d01d524e8c8caf3d47e2be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Skylight.fbx using Guid(401656ee5d01d524e8c8caf3d47e2be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d1d8039fea253325bbdd35f113449c') in 0.066562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Security Cam.fbx
+  artifactKey: Guid(b242581fc7fd82a45b00226894da6bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Misc Props/Security Cam.fbx using Guid(b242581fc7fd82a45b00226894da6bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21beba031df804380af3bdedc0b268') in 0.027987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Vent.fbx
+  artifactKey: Guid(46032e2b9d73a4c46b7c0a8cfda58d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Vent.fbx using Guid(46032e2b9d73a4c46b7c0a8cfda58d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c89621c53c3239981afe818df4c9ed') in 0.030651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner.fbx
+  artifactKey: Guid(6824b60acb70ef24fa40f9f9537a81cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner.fbx using Guid(6824b60acb70ef24fa40f9f9537a81cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fbe81487fd7446ab7ba173dce2d06e') in 0.130960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 04.fbx
+  artifactKey: Guid(16c8394e6de71fe418ee7d27508f01df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 04.fbx using Guid(16c8394e6de71fe418ee7d27508f01df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0236c6d1a74d100f4c8b90c71eace638') in 0.022848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Pillars and Beams/Pillar.fbx
+  artifactKey: Guid(bdd9a246f71230349b340130b899e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Pillars and Beams/Pillar.fbx using Guid(bdd9a246f71230349b340130b899e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d6dd61219863fac6ab097ce7a99420') in 0.032768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Straight.fbx
+  artifactKey: Guid(43901d630c7174040b7ca11548b6d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Straight.fbx using Guid(43901d630c7174040b7ca11548b6d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19daac6bb081f7a0687e236386a8891b') in 0.041003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Doors Lights.fbx
+  artifactKey: Guid(04c4d664893776444ac42f486e433938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Doors Lights.fbx using Guid(04c4d664893776444ac42f486e433938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca62b30a01eeef65813d0ff0f2aeffe4') in 0.139578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner Windows.fbx
+  artifactKey: Guid(86e0494e75e2b6243960cc0cbf7c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner Windows.fbx using Guid(86e0494e75e2b6243960cc0cbf7c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf48d80ae026faf5c0436ac935d8697f') in 0.155515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32700.399148 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab
+  artifactKey: Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab using Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7be23d1671cc093fda071b5e9c44a7a') in 0.285269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.958320 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab
+  artifactKey: Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab using Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834cb16c623aa055cf35acfe54f61a90') in 0.151387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199110 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab
+  artifactKey: Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab using Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8407ebbf63862cefad6fd76aeebc36') in 0.024532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.200172 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab
+  artifactKey: Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 02.prefab using Guid(aae952dc76387e84287a598d901b120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f19d72f00bcdcbfbd176e1ed1ffc297') in 0.038278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.589489 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab
+  artifactKey: Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab using Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0bc9bf535daea074cf07651d1fdb0e') in 0.033468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.937716 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab
+  artifactKey: Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab using Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bbd9a0bdce65789afad21bee5b0766') in 0.035549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.472095 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab
+  artifactKey: Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab using Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1251262c2eace51c3183a34500914cb4') in 0.032257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.906193 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab
+  artifactKey: Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 01.prefab using Guid(cf8443763fc34314490f8a3e2f94dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53020ff163517da72de243acb63feac6') in 0.024529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 931.914917 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs
+  artifactKey: Guid(4f2c79c5874c642489b8485f052249f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs using Guid(4f2c79c5874c642489b8485f052249f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a57ed091af7fdd72fe7197ad54ff6a6') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.604486 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures
+  artifactKey: Guid(c6443e01b898d8e49a5aa452c0788b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures using Guid(c6443e01b898d8e49a5aa452c0788b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900ab147d239a77e2e5426ff8126d4d6') in 0.041601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.774301 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor
+  artifactKey: Guid(3a46817c220e67141814d59b2cc105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor using Guid(3a46817c220e67141814d59b2cc105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde824f9c927b24726379a51e2de517') in 0.042302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084555 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 03.prefab
+  artifactKey: Guid(4f019145598ea474b899ca25a03acd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 03.prefab using Guid(4f019145598ea474b899ca25a03acd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a450c85831beb7a13703016a6aab19d') in 0.278180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 04.prefab
+  artifactKey: Guid(f9e1a0158e9f7a545a16fa7c2aa7be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Floor/Floor Tile 04.prefab using Guid(f9e1a0158e9f7a545a16fa7c2aa7be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51ea05d1e8c063f765f8e2c07e84849') in 0.140343 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\john17\Documents\school\NEW3DGAME\our-3D-game\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1710ms)
+		BeginReloadAssembly (374ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1150ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (149.6 KB). Loaded Objects now: 3550.
+Memory consumption went from 208.5 MB to 208.4 MB.
+Total: 6.834000 ms (FindLiveObjects: 0.517900 ms CreateObjectMapping: 0.204600 ms MarkObjects: 5.870000 ms  DeleteObjects: 0.238300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
